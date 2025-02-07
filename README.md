@@ -158,5 +158,5 @@ Beautiful::Log::Formatter.new(
 # TODOs
 
 - [ ] Specs
-- [ ] Is is smarter to pass a proc/block to customize log style?
+- [ ] Is it smarter to pass a proc/block to customize log style?
 
