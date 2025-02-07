@@ -30,7 +30,7 @@ module Beautiful
         error_file_path_styles: :red,
         status_code_styles: {},
         severity_styles: {},
-        occurence_line: :light_blue
+        occurrence_line: :light_blue
       )
         @only_project_code = only_project_code
         @shrink_bundle_path = shrink_bundle_path
@@ -45,7 +45,7 @@ module Beautiful
         @error_file_path_styles = error_file_path_styles
         @status_code_styles = DEFAULT_STATUS_CODE_STYLES.merge(status_code_styles).with_indifferent_access
         @severity_styles = DEFAULT_SEVERITY_STYLES.merge(severity_styles).with_indifferent_access
-        @occurence_line = occurence_line
+        @occurrence_line = occurrence_line
       end
 
       def call(severity, timestamp, _progname, message)

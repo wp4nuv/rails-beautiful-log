@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'spec/spec_helper'
 
 describe Beautiful::Log::Formatter do
   it 'Formatter exists' do
